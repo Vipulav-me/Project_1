@@ -1,8 +1,8 @@
-# 🚀 SpaceX Falcon 9 Landing Prediction — IBM Data Science Capstone
+# SpaceX Falcon 9 Landing Prediction — IBM Data Science Capstone
 
 A full end-to-end data science project completed as part of the **IBM Data Science Professional Certificate** on Coursera. The project predicts whether a SpaceX Falcon 9 first-stage booster will successfully land, which is the key factor in reducing launch costs.
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── Data_collection (1).ipynb     # SpaceX API data collection
@@ -15,7 +15,7 @@ A full end-to-end data science project completed as part of the **IBM Data Scien
 └── spacex-dash-app.py            # Interactive Plotly Dash dashboard
 ```
 
-## 🔍 Project Overview
+##  Project Overview
 
 SpaceX advertises Falcon 9 launches at \$62 million, far cheaper than competitors, largely because the first stage can be recovered and reused. This project builds a classifier to predict first-stage landing success using real launch data.
 
@@ -30,8 +30,7 @@ SpaceX advertises Falcon 9 launches at \$62 million, far cheaper than competitor
 7. **Classification** — Training and tuning Logistic Regression, SVM, Decision Tree, and KNN models
 8. **Dashboard** — Building an interactive app to visualize results
 
-## 🛠️ Technologies Used
-
+##  Technologies Used
 - Python
 - Jupyter Notebook
 - pandas, NumPy, scikit-learn
@@ -41,7 +40,7 @@ SpaceX advertises Falcon 9 launches at \$62 million, far cheaper than competitor
 - BeautifulSoup (web scraping)
 - SQLite / SQL
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -64,10 +63,10 @@ python spacex-dash-app.py
 ```
 Then open `http://localhost:8050` in your browser.
 
-## 📊 Results
+##  Results
 
 Multiple classifiers were trained and evaluated. The best-performing model was selected based on accuracy and F1-score on the test set. Key features influencing landing success include flight number, payload mass, orbit type, and launch site.
 
-## 📬 Contact
+##  Contact
 
 GitHub: [@Vipulav-me](https://github.com/Vipulav-me)
